@@ -1,6 +1,6 @@
 ---
-title="Djinni"
-weight 1
+title: "Djinni"
+weight: 1
 ---
 
 ## Overview
