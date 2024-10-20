@@ -1,5 +1,5 @@
 ---
-title: "Profile Management"
+title: "Profile"
 weight: 1
 ---
 
