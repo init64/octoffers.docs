@@ -1,5 +1,5 @@
 ---
-title: "Octoffers - Djinni"
+title: "Djinni"
 weight: 1
 ---
 
