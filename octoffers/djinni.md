@@ -1,7 +1,6 @@
 ---
-title	weight
-Octoffers
-1
+title: "Octoffers - Djinni"
+weight: 1
 ---
 
 ## Overview
