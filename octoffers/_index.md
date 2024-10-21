@@ -3,22 +3,17 @@ title: "Octoffers"
 weight: 1
 ---
 
-Octoffers is a tool that can `fetch`, `export`, and `apply` for jobs in different career platforms using automated Chrome WebDriver{Selenium}, or in some cases, a bare HTTP API.
+Octoffers is a simple piece of software that can `fetch`, `export`, and `apply` available jobs on the different career
+platforms. Commonly octoffers complete all these tasks using automated chrome-webdriver. 
 
-- Each platform has its own `driver` which is compatible only with a
+Each platform has its own `driver` which is compatible only with a
 specific platform.
 
-- Platform Driver is an inherited class of a driver, including at least the `apply` and `fetch` methods.
+**Platform Driver** is an inherited class of a driver. 
 
-These scripts act based on specific functions, with optional arguments like `filter or cover letter`, aiming to ease job applications.
-
-Additional Features of Octoffers:
-
-- **Customizations:** Users can specify filters like `job title`, `salary`, and `skills` for targeted job searches.
-  
-- **Session Management:** Handles user login sessions to allow easy application submissions without repeated logins.
-
-- **Multi-Platform Support:** Interacts with multiple job portals through different platform drivers.
+Each platform driver includes at least the `apply` and `fetch` methods for the webdriver.
+Each of these scripts preforms its task to complete its designated function. They might have diffrenet arguments representing various
+additional features, such as *filter* or *coverletter*, but in the end, they share the same goal.
 
 {{< button "./installation/" "Get started now" >}}
 {{< button "https://alx.zolotarov.me/projects/octoffers/" "Read More" >}}
