@@ -4,8 +4,7 @@ weight: 1
 ---
 
 Octoffers is a simple piece of software that can `fetch`, `export`, and `apply` available jobs on the different career
-platforms. Commonly octoffers complete all these tasks using automated chrome-webdriver, but it dosen't mean that
-Octoffers can't operate with a bare HTTP API. 
+platforms. Commonly octoffers complete all these tasks using automated chrome-webdriver. 
 
 Each platform has its own `driver` which is compatible only with a
 specific platform.
